@@ -7,4 +7,5 @@ import kodlamaio.northwind.entities.concrets.Product;
 public interface ProductDao extends JpaRepository<Product,Integer>{
 	
 	
+	
 }

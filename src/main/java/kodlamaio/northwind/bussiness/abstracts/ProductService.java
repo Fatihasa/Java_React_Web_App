@@ -2,9 +2,12 @@ package kodlamaio.northwind.bussiness.abstracts;
 
 import java.util.List;
 
+import kodlamaio.northwind.core.utilities.results.DataResult;
+import kodlamaio.northwind.core.utilities.results.Result;
 import kodlamaio.northwind.entities.concrets.Product;
 
 public interface ProductService {
-	List<Product> getAll();
 	
+	DataResult<List<Product>> getAll();
+	Result add(Product product);
 }
