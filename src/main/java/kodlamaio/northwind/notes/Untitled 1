@@ -1,0 +1,12 @@
+
+#Bu kodlar onemli
+200 ornegin 201 icin post codu calisiyor. Front endci bu kodlara gore islemi anliyor
+300
+400
+500
+  
+  
+#AOP
+
+bu operasyonda bir hata olursa diye global exeption handlar yazariz. Butun operasyonlara try catch yazmak yerine bir kere yazip 
+global ex. handlara yollariz.
